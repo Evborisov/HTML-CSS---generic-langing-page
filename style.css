@@ -8,7 +8,6 @@ header p{
     display: block;
     padding-right: 40px;
     font-weight: 300;
-    line-height: normal;
     font-size: 16px;
     color: #979797;
 }
@@ -27,7 +26,6 @@ header{
 label{
     text-align: left;
     font-weight: 500;
-    line-height: normal;
     font-size: 16px;
     color: #434C5F;
     clear: both;
@@ -44,6 +42,9 @@ form{
     margin-left: 10%;
     margin-right: 10%
 }
+.pass{
+    width: 519px
+}
 
 form input{
 width: 519px;
@@ -53,7 +54,6 @@ box-sizing: border-box;
 border-radius: 5px;
 clear: both;
 font-weight: 300;
-line-height: normal;
 font-size: 24px;
 margin: 0
 
@@ -73,9 +73,7 @@ form p a{
     margin-top: 0px;
     margin-bottom: 30px;
     text-align: center;
-    font-style: normal;
     font-weight: 300;
-    line-height: normal;
     font-size: 14px;
     color: #434C5F;
 }
@@ -103,7 +101,6 @@ form p a{
     display: block;
     align-self: center;
     font-family: 'Montserrat', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 18px;
     color: #2FBBC4;
@@ -132,26 +129,23 @@ aside{
 }
 
 button{
-width: 124px;
-height: 42px;
-border: 1px solid #979797;
-box-sizing: border-box;
-border-radius: 22px;
-text-transform: uppercase;
-font-style: normal;
-font-weight: 600;
-line-height: normal;
-font-size: 14px;
-color: #979797;
-letter-spacing: 1px;
-box-shadow: 0 0 20px grey;
-transform: translateY(-25%);
-transition: all 0.345s ease
+    width: 124px;
+    height: 42px;
+    border: 1px solid #979797;
+    box-sizing: border-box;
+    border-radius: 22px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #979797;
+    letter-spacing: 1px;
+    box-shadow: 0 0 20px grey;
+    transform: translateY(-25%);
+    transition: all 0.345s ease
 }
 button:hover{
-background-color: #2FBBC4;
-box-shadow: 0 0 40px yellow;
-color: white
+    background-color: #2FBBC4;
+    box-shadow: 0 0 40px yellow;
+    color: white
 }
 
 .bbutt{
@@ -170,9 +164,8 @@ color: white
     margin-bottom: 20px;
     text-align: center;
     font-style: normal;
-font-weight: 300;
-line-height: normal;
-font-size: 14px;
-
-color: #434C5F;
+    font-weight: 300;
+    line-height: normal;
+    font-size: 14px;
+    color: #434C5F;
 }
